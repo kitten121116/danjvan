@@ -1,0 +1,98 @@
+<head>
+		<meta charset="utf-8">
+		<title>点点社区-蛋卷定格动画</title>
+	</head>
+	<body bgcolor="#87CEEB">
+	<style>
+body {
+  background-image: url/('IMG_2290.jpg'));
+}
+</style>
+
+
+		<div align="center">
+			<img src="logo.png" height="100px" width="100px "/>
+		</div bgcolor="#87CEEB">
+<h2 align="center">点点社区客户端</h2>
+<h2 align="center"> -----------------------------------------------------------------------------------------------------------</h2>
+	<body style="text-align: center">
+
+<h2 =>下载链接（提取码TiBF）</h2>
+<form action="https://www.123pan.com/s/VZc3jv-5XRRA"target="post">
+     <input type="image" 
+      src="123pan.png" 
+      alt="下载" 
+      height="100"
+     />
+</form>
+<h2 align="center"> -----------------------------------------------------------------------------------------------------------</h2>
+<h2 =>在线版体验</h2>
+<form action="https://shequ.codemao.cn/work/174907478"target="post">
+     <input type="image" 
+      src="codemao.png" 
+      alt="在线" 
+      height="100"
+	<div bgcolor="#000000">
+		<h2 align="center">@蛋卷定格动画</h2>
+		<h2 align="center">我是有底线的！！😛</h2>
+
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+ 
+<body>
+    <script>
+        (function () {
+            var a_idx = 0;
+            window.onclick = function (event) {
+                var a = new Array("😀", "😋", "🤩","🤨","😮","🙄","😍","😛","😭","🥵","🤧","😷","🥺","🍔","🍟","🌭","🍿","🥓","🥨","🥐","🍞");
+ 
+                var heart = document.createElement("b"); //创建b元素
+                heart.onselectstart = new Function('event.returnValue=false'); //防止拖动
+ 
+                document.body.appendChild(heart).innerHTML = a[a_idx]; //将b元素添加到页面上
+                a_idx = (a_idx + 1) % a.length;
+                heart.style.cssText = "position: fixed;left:-100%;"; //给p元素设置样式
+ 
+                var f = 16, // 字体大小
+                    x = event.clientX - f / 2, // 横坐标
+                    y = event.clientY - f, // 纵坐标
+                    c = randomColor(), // 随机颜色
+                    a = 1, // 透明度
+                    s = 1.2; // 放大缩小
+ 
+                var timer = setInterval(function () { //添加定时器
+                    if (a <= 0) {
+                        document.body.removeChild(heart);
+                        clearInterval(timer);
+                    } else {
+                        heart.style.cssText = "font-size:16px;cursor: default;position: fixed;color:" +
+                            c + ";left:" + x + "px;top:" + y + "px;opacity:" + a + ";transform:scale(" +
+                            s + ");";
+ 
+                        y--;
+                        a -= 0.016;
+                        s += 0.002;
+                    }
+                }, 15)
+ 
+            }
+            // 随机颜色
+            function randomColor() {
+ 
+                return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math
+                .random() * 255)) + ")";
+ 
+            }
+        }());
+    </script>
+</body>
+ 
+</html>
+
+</body>
